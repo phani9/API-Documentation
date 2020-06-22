@@ -8,8 +8,10 @@ API Documentation
 # - Product Info
   - name : name of product from our catalog
   - code : product code from our catalog
+  - quantity 1
 # - Payment Info: This will have 
   - Amount 
+  - Currency 
   - method : GooglePay / ApplePay 
   - Stripe Token for fulfilling Payments made using Apple/Google Pay
   - StoreCredit amount, incase a StoreCash account credit is used to place order.
@@ -30,7 +32,6 @@ API Documentation
   - zipcode
 # - Note
  
-Create Order data will be secured at rest & in transit. Details will be shared with partners as part of integrations.
+Create Order data will be secured in transit. Details will be shared with partners as part of integrations.
 
-2.
-3.
+
