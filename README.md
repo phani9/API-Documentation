@@ -4,12 +4,12 @@ API Documentation
 # 1. Create Order API
 
 # Create Order API is used to create a gift card order & return the redemption code.
-# The following are key elements for generating an Order.
+# The following are key Input elements for generating an Order.
 # - Product Info
   - name : name of product from our catalog
   - code : product code from our catalog
   - quantity 1
-# - Payment Info: This will have 
+# - Payment Info: 
   - Amount 
   - Currency 
   - method : GooglePay / ApplePay 
@@ -31,7 +31,12 @@ API Documentation
   - unit
   - zipcode
 # - Note
- 
+
+# Response:
+  - success or error code
+
+Redemption URL will be sent to Receiver email id or phone number.
+
 Create Order data will be secured in transit. Details will be shared with partners as part of integrations.
 
 
